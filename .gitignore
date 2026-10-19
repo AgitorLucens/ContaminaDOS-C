@@ -1,0 +1,26 @@
+# Build directory (CMake cache, object files, executables, test logs)
+build/
+
+# CMake FetchContent downloads (libwebsockets, cmocka) - re-fetched on configure
+deps/
+
+# Local environment configuration (use .env.example as template)
+.env
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Compiled artifacts (in case of in-source builds)
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
